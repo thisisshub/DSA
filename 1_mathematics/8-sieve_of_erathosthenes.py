@@ -1,4 +1,16 @@
 def method1(n: int) -> int:
+    """
+    >>> method1(20)
+    [2, 3, 5, 7, 11, 13, 17, 19]
+    >>> method1(0)
+    []
+    >>> method1(1)
+    []
+    >>> method1(2)
+    []
+    >>> method1(3)
+    [2]
+    """
     if n <= 2: return []
     else: 
         sieve = [True] * (n + 1)
