@@ -1,4 +1,12 @@
 def method1(n: int, m: int) -> bin:
+    """
+    >>> method1(25, 30)
+    '0b11000'
+    >>> method1(76, 30)
+    '0b1100'
+    >>> method1(60, 13)
+    '0b1100
+    """
     return bin(n & m)
 
 
