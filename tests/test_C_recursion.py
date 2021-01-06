@@ -63,3 +63,8 @@ class Test_C_recursion:
         assert G_sum_of_digits.method1(1234) == 10
         assert G_sum_of_digits.method2(1234) == 10
         assert G_sum_of_digits.method3(1234) == 10
+
+
+    def test_H_rod_cutting(self):
+        price = [1, 5, 8, 9, 10, 17, 17, 20]
+        assert H_rod_cutting.method1(price, len(price)) == 22

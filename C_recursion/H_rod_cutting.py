@@ -1,9 +1,4 @@
 def method1(price: list, n: int) -> int:
-    """
-    >>> prices = [1, 5, 8, 9, 10, 17, 17, 20]
-    >>> method1(prices, len(prices))
-    22
-    """
     import sys
     if n <= 0: return 0
     max_val = -sys.maxsize - 1
@@ -18,5 +13,3 @@ if __name__ == '__main__':
     prices = [1, 5, 8, 9, 10, 17, 17, 20]
     print(timeit(lambda: method1(prices, len(prices)), number=10000)) # 1.6864704039999197
     """
-    import doctest
-    doctest.testmod()
