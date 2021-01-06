@@ -68,3 +68,8 @@ class Test_C_recursion:
     def test_H_rod_cutting(self):
         price = [1, 5, 8, 9, 10, 17, 17, 20]
         assert H_rod_cutting.method1(price, len(price)) == 22
+
+
+    def test_I_subset_of_set(self):
+        assert I_subset_of_set.method1([1, 2, 3]) == [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
+        assert I_subset_of_set.method2([{1, 2, 3}]) == [(), (1,), (2,), (3,), (1, 2), (1, 3), (2, 3), (1, 2, 3)]

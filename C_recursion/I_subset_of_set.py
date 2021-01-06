@@ -23,5 +23,3 @@ if __name__ == '__main__':
     print(timeit(lambda: method1([1, 2, 3, 4, 5, 6]), number=10000)) # 0.003230058999179164
     print(timeit(lambda: method2({1, 2, 3, 4, 5, 6}), number=10000)) # 0.055786498000088613
     """
-    import doctest
-    doctest.testmod()
