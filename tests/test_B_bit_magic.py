@@ -50,3 +50,9 @@ class Test_B_palindrome:
         assert F_count_setbit.method2(0) == 0
         assert F_count_setbit.method2(1) == 1
         assert F_count_setbit.method2(10) == 2
+
+
+    def test_G_brian_kerningham(self):
+        assert G_brian_kerningham.method1(0) == 0
+        assert G_brian_kerningham.method1(1) == 1
+        assert G_brian_kerningham.method1(10) == 2
