@@ -30,3 +30,9 @@ class Test_B_palindrome:
         assert C_operation_xor.method1(10, 12) == '0b110'
         assert C_operation_xor.method1(25, 30) != '0b111'
         assert C_operation_xor.method1(-25, -30) == '0b101'
+
+    
+    def test_D_operation_complement(self):
+        assert D_operation_complement.method1(60) == '-0b111101'
+        assert D_operation_complement.method1(61) != '-0b111100'
+        assert D_operation_complement.method1(-20) == '0b10011'
