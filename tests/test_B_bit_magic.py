@@ -58,7 +58,7 @@ class Test_B_palindrome:
         assert G_brian_kerningham.method1(10) == 2
 
     
-    def test_H_using_lookup_table(self):
+    def test_H_using_lookuptable(self):
         assert H_using_lookuptable.method1(0) == 0
         assert H_using_lookuptable.method1(1) == 1
         assert H_using_lookuptable.method1(2) == 1
