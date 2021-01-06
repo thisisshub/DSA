@@ -17,3 +17,10 @@ class Test_B_palindrome:
     def test_A_operation_and(self):
         assert A_operation_and.method1(25, 30) == '0b11000'
         assert A_operation_and.method1(25, 30) != '0b10000'
+        assert A_operation_and.method1(-25, -30) == '-0b11110'
+    
+
+    def test_B_operation_or(self):
+        assert B_operation_or.method1(60, 13) == '0b111101'
+        assert B_operation_or.method1(60, 13) != '0b110001'
+        assert B_operation_or.method1(-10, -12) == '-0b1010'
