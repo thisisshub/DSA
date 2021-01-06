@@ -1,0 +1,9 @@
+script:
+  - doctest
+
+notifications:
+  email:
+    recipients:
+      thisisshub@gmail.com
+    on_success: never
+    on_failure: always
