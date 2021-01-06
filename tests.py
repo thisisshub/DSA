@@ -44,3 +44,12 @@ class Test_A_mathematics:
         assert D_lcm.method2(-2, 3) == 6
         assert D_lcm.method2(-2, -3) == 6
         assert D_lcm.method2(2, -3) == 6
+
+    
+    def test_E_factorial(self):
+        assert E_factorial.method1(4) == 24
+        assert E_factorial.method1(3) != 12
+        assert E_factorial.method1(3) == 6
+        assert E_factorial.method1(2) == 1
+        assert E_factorial.method1(1) == 1
+        assert E_factorial.method1(0) == 1
