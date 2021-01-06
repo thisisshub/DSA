@@ -33,3 +33,14 @@ class Test_A_mathematics:
         assert C_gcd.method2(-123, -32) == 1
         assert C_gcd.method2(12, 18) == 6
         assert C_gcd.method2(-4, 14) == 2
+
+
+    def test_D_lcm(self):
+        assert D_lcm.method1(2, 3) == 6
+        assert D_lcm.method1(-2, 3) == 6
+        assert D_lcm.method1(-2, -3) == 6
+        assert D_lcm.method1(2, -3) == 6
+        assert D_lcm.method2(2, 3) == 6
+        assert D_lcm.method2(-2, 3) == 6
+        assert D_lcm.method2(-2, -3) == 6
+        assert D_lcm.method2(2, -3) == 6
