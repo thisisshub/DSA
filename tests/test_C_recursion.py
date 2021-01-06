@@ -36,3 +36,8 @@ class Test_C_recursion:
         assert B_fibonnaci.method2(2) == 1
         assert B_fibonnaci.method2(3) == 2
         assert B_fibonnaci.method2(4) == 3
+
+
+    def test_C_print_n_to_1(self):
+        assert C_print_n_to_1.method1(10) == [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+        assert C_print_n_to_1.method2(10) == [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]

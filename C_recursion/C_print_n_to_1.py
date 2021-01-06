@@ -1,42 +1,16 @@
 def method1(n: int) -> list:
-    """
-    >>> method1(10)
-    [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-    """
     return [i for i in range(n, 0, -1)]
 
 
 def method2(n: int) -> list:
-    """
-    >>> method2(10)
-    [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-    """
     return [n - x for x in range(n)]
 
 
-
 def method3(n: int) -> int:
-    """
-    >>> method3(10)
-    10 9 8 7 6 5 4 3 2 1
-    """
     print(*range(n, 0, -1))
 
 
 def method4(n: int) -> int:
-    """
-    >>> method4(10)
-    10
-    9
-    8
-    7
-    6
-    5
-    4
-    3
-    2
-    1
-    """
     while n>0:
         print(n)
         n-=1
@@ -49,5 +23,3 @@ if __name__ == '__main__':
     print(timeit(lambda: method3(10), number=10000)) # 0.062233691998699214
     print(timeit(lambda: method4(10), number=10000)) # 0.26295897900126874
     """
-    import doctest 
-    doctest.testmod()
