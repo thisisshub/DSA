@@ -1,8 +1,4 @@
 def method1(n: list) -> list:
-    """
-    >>> method1([1, 2, 3])
-    [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
-    """
     x = len(n)
     masks = [1 << i for i in range(x)]
     for i in range(1 << x):
@@ -10,10 +6,6 @@ def method1(n: list) -> list:
 
 
 def method2(n: set) -> list:
-    """
-    >>> method1({1, 2, 3})
-    [(), (1,), (2,), (3,), (1, 2), (1, 3), (2, 3), (1, 2, 3)]
-    """
     from itertools import combinations
     return ([x for i in range(len(n)+1) for x in combinations(n, i)])
 
