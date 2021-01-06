@@ -52,8 +52,14 @@ class Test_C_recursion:
         assert E_tail_recursion.nontailrecursive(10) == 3628800
 
     
-    def test_checking_palindrome(self):
+    def test_F_checking_palindrome(self):
         assert F_checking_palindrome.method1('aibohphobia') == True
         assert F_checking_palindrome.method1('string') == False
         assert F_checking_palindrome.method1(1111) == True
         assert F_checking_palindrome.method1(1234) == False
+
+
+    def test_G_sum_of_digits(self):
+        assert G_sum_of_digits.method1(1234) == 10
+        assert G_sum_of_digits.method2(1234) == 10
+        assert G_sum_of_digits.method3(1234) == 10
