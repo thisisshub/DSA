@@ -24,3 +24,9 @@ class Test_B_palindrome:
         assert B_operation_or.method1(60, 13) == '0b111101'
         assert B_operation_or.method1(60, 13) != '0b110001'
         assert B_operation_or.method1(-10, -12) == '-0b1010'
+
+    
+    def test_C_operation_xor(self):
+        assert C_operation_xor.method1(10, 12) == '0b110'
+        assert C_operation_xor.method1(25, 30) != '0b111'
+        assert C_operation_xor.method1(-25, -30) == '0b101'
