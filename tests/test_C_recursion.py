@@ -23,3 +23,16 @@ class Test_C_recursion:
         assert A_factorial.method1(2) == 2
         assert A_factorial.method1(4) != 23
         assert A_factorial.method1(10) == 3628800
+
+    
+    def test_B_fibonnaci(self):
+        assert B_fibonnaci.method1(0) == 0
+        assert B_fibonnaci.method1(1) == 1
+        assert B_fibonnaci.method1(2) == 1
+        assert B_fibonnaci.method1(3) == 2
+        assert B_fibonnaci.method1(4) == 3
+        assert B_fibonnaci.method2(0) == 0
+        assert B_fibonnaci.method2(1) == 1
+        assert B_fibonnaci.method2(2) == 1
+        assert B_fibonnaci.method2(3) == 2
+        assert B_fibonnaci.method2(4) == 3
