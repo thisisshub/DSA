@@ -12,6 +12,7 @@ from C_recursion import (
     H_rod_cutting,
     I_subset_of_set,
     J_tower_of_hanoi,
+    K_josephus
 )
 
 
@@ -74,3 +75,7 @@ class Test_C_recursion:
         a, b = [1, 2, 3], {1, 2, 3}
         assert list(I_subset_of_set.method1(a)) == [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
         assert list(I_subset_of_set.method2(b)) == [(), (1,), (2,), (3,), (1, 2), (1, 3), (2, 3), (1, 2, 3)]
+
+    
+    def test_K_josephus(self):
+        assert K_josephus.method1(14, 2) == 13
