@@ -73,3 +73,12 @@ class Test_A_mathematics:
         assert G_prime_factors.method1(6) == [2, 3]
         assert G_prime_factors.method1(15) == [3, 5]
         assert G_prime_factors.method1(-10) == []
+
+    
+    def H_sieve_of_erathosthenes(self):
+        assert H_sieve_of_erathosthenes.method1(-1) == []
+        assert H_sieve_of_erathosthenes.method1(0) == []
+        assert H_sieve_of_erathosthenes.method1(1) == []
+        assert H_sieve_of_erathosthenes.method1(2) == []
+        assert H_sieve_of_erathosthenes.method1(3) == [2]
+        assert H_sieve_of_erathosthenes.method1(4) == [2, 3]

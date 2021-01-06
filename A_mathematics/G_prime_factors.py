@@ -8,5 +8,3 @@ if __name__ == '__main__':
     from timeit import timeit
     print(timeit(lambda: method1(20), number=10000)) # 0.028740440000547096
     """
-    import doctest
-    doctest.testmod()
