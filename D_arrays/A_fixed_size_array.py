@@ -1,4 +1,4 @@
-def method1(n: list) -> int:
+def method1(n: list) -> list:
     n = [None] * 5
     return n
 
