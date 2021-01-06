@@ -28,7 +28,7 @@ class Test_B_palindrome:
     
     def test_C_operation_xor(self):
         assert C_operation_xor.method1(10, 12) == '0b110'
-        assert C_operation_xor.method1(25, 30) != '0b111'
+        assert C_operation_xor.method1(25, 30) != '0b110'
         assert C_operation_xor.method1(-25, -30) == '0b101'
 
     
@@ -41,3 +41,12 @@ class Test_B_palindrome:
     def test_E_operation_leftshit_rightshift(self):
         assert E_operation_leftshit_rightshift.method_leftshift(60) == '0b11110000'
         assert E_operation_leftshit_rightshift.method_rightshift(60) == '0b1111'
+
+    
+    def test_F_count_setbit(self):
+        assert F_count_setbit.method1(0) == 0
+        assert F_count_setbit.method1(1) == 1
+        assert F_count_setbit.method1(10) == 2
+        assert F_count_setbit.method2(0) == 0
+        assert F_count_setbit.method2(1) == 1
+        assert F_count_setbit.method2(10) == 2
