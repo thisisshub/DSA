@@ -2,7 +2,7 @@ language:
   - python
 
 script:
-  - pytest
+  - pytest tests.py
 
 notifications:
   email:
