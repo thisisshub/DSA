@@ -2,7 +2,7 @@ language:
   - python
 
 script:
-  - pytest tests.py
+  - python3 -m pytest --color=yes tests.py
 
 notifications:
   email:
