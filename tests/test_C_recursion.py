@@ -50,3 +50,10 @@ class Test_C_recursion:
     def test_E_tail_recursion(self):
         assert E_tail_recursion.tailrecursive(10) == 3628800
         assert E_tail_recursion.nontailrecursive(10) == 3628800
+
+    
+    def test_checking_palindrome(self):
+        assert F_checking_palindrome.method1('aibohphobia') == True
+        assert F_checking_palindrome.method1('string') == False
+        assert F_checking_palindrome.method1(1111) == True
+        assert F_checking_palindrome.method1(1234) == False
