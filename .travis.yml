@@ -1,8 +1,8 @@
 language: 
   - python
 
-  script:
-  - doctest
+script:
+  - pytest
 
 notifications:
   email:
