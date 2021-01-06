@@ -65,3 +65,11 @@ class Test_A_mathematics:
         assert F_prime_number.method2(0) == False
         assert F_prime_number.method2(1) == False
         assert F_prime_number.method2(3) == True
+
+    
+    def G_prime_factors(self):
+        assert G_prime_factors.method1(2) == []
+        assert G_prime_factors.method1(4) == [2]
+        assert G_prime_factors.method1(6) == [2, 3]
+        assert G_prime_factors.method1(15) == [3, 5]
+        assert G_prime_factors.method1(-10) == []
