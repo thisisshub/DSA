@@ -45,3 +45,8 @@ class Test_C_recursion:
 
     def test_D_print_1_to_n(self):
         assert D_print_1_to_n.method1(10) == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+    def test_E_tail_recursion(self):
+        assert E_tail_recursion.tailrecursive(10) == 3628800
+        assert E_tail_recursion.nontailrecursive(10) == 3628800
