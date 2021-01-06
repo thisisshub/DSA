@@ -1,4 +1,7 @@
 import pytest
+import sys
+sys.path.append('../')
+
 from A_mathematics import (
     A_count_digits,
     B_palindrome,
