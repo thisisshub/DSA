@@ -36,3 +36,8 @@ class Test_B_palindrome:
         assert D_operation_complement.method1(60) == '-0b111101'
         assert D_operation_complement.method1(61) != '-0b111100'
         assert D_operation_complement.method1(-20) == '0b10011'
+
+
+    def test_E_operation_leftshit_rightshift(self):
+        assert E_operation_leftshit_rightshift.method_leftshift(60) == '0b11110000'
+        assert E_operation_leftshit_rightshift.method_rightshift(60) == '0b1111'
