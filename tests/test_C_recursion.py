@@ -41,3 +41,7 @@ class Test_C_recursion:
     def test_C_print_n_to_1(self):
         assert C_print_n_to_1.method1(10) == [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
         assert C_print_n_to_1.method2(10) == [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+
+    def test_D_print_1_to_n(self):
+        assert D_print_1_to_n.method1(10) == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
