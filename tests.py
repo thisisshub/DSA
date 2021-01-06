@@ -53,3 +53,15 @@ class Test_A_mathematics:
         assert E_factorial.method1(2) == 1
         assert E_factorial.method1(1) == 1
         assert E_factorial.method1(0) == 1
+    
+
+    def test_F_prime_number(self):
+        assert F_prime_number.method1(-1) == False
+        assert F_prime_number.method1(0) == False
+        assert F_prime_number.method1(1) == False
+        assert F_prime_number.method1(3) != False
+        assert F_prime_number.method1(1) == False       
+        assert F_prime_number.method2(1) == False
+        assert F_prime_number.method2(0) == False
+        assert F_prime_number.method2(1) == False
+        assert F_prime_number.method2(3) == True
