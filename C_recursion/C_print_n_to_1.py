@@ -11,11 +11,12 @@ def method3(n: int) -> int:
 
 
 def method4(n: int) -> int:
-    while n>0:
+    while n > 0:
         print(n)
-        n-=1
+        n -= 1
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     """
     from timeit import timeit
     print(timeit(lambda: method1(10), number=10000)) # 0.005636529000184964

@@ -7,9 +7,11 @@ def method1(n: list) -> list:
 
 def method2(n: set) -> list:
     from itertools import combinations
-    return ([x for i in range(len(n)+1) for x in combinations(n, i)])
 
-if __name__ == '__main__':
+    return [x for i in range(len(n) + 1) for x in combinations(n, i)]
+
+
+if __name__ == "__main__":
     """
     from timeit import timeit
     print(timeit(lambda: method1([1, 2, 3, 4, 5, 6]), number=10000)) # 0.003230058999179164

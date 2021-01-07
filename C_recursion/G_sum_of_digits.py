@@ -1,6 +1,7 @@
 def method1(n: int) -> int:
     r = 0
-    while n: r, n = r + n % 10, n // 10
+    while n:
+        r, n = r + n % 10, n // 10
     return r
 
 
@@ -14,7 +15,8 @@ def method2(n: int) -> int:
 def method3(n: int) -> int:
     return sum(map(int, (str(n))))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     """
     from timeit import timeit
     print(timeit(lambda: method1(1234), number=10000)) # 0.005289119000735809
