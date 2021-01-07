@@ -2,6 +2,7 @@ def method1(n: int, m: int) -> int:
     def gcd(n: int, m: int) -> int:
         while m:
             n, m = m, n % m
+        return n
 
     return abs((n * m) // gcd(n, m))
 
