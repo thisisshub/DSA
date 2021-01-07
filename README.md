@@ -11,7 +11,7 @@ YOU SHOULD but we both know you can't or won't write C++
 
 ## So, what's up with your code? Why should I look into it?
 
-Yours truly has written code which is written in 1-2 or more than 2 methods which perform the exact same task
+Yours truly for each topic he came across has written the code in 1-2 or more than 2 methods which perform the exact same task. So that you could choose whichever method works for you. Each method is tested under the `tests/` with pytest
 
 ### So what's the difference between method 1 and 2?
 Well, if you look closely, I mean really closely you could see the `timeit` module in `__main__` which shows the time taken by that particular function to run
