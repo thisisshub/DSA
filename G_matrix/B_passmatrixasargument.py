@@ -4,6 +4,7 @@ matrix = [[1, 2, 3], [4, 5, 6]]
 def method1(matrix: list) -> list:
     return matrix
 
+
 if __name__ == "__main__":
     """
     from timeit import timeit
