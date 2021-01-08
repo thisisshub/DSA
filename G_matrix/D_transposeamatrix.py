@@ -6,7 +6,7 @@ def method1():
     ans = [[0, 0, 0],
            [0, 0, 0],
            [0, 0, 0]]
-        
+
     for i in range(len(matrix)):
         for j in range(3):
             ans[j][i] = matrix[i][j]
@@ -14,6 +14,9 @@ def method1():
     for r in ans:
         print(r)
 
+
 if __name__ == "__main__":
+    """
     from timeit import timeit
     print(timeit(lambda: method1(), number=10000)) # 0.4282153890017071
+    """
