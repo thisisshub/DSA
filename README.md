@@ -38,3 +38,8 @@ if __name__ == "__main__":
 
 ## So is the time taken by `timeit` reliable?
 Fork no, but still for the best result I ran the methods 10 thousand times each. My machine is Asus-UX425JA with Fedora 33 on kernel 5.9 with several stackoverflow tabs and a spotify tab open when I ran each `timeit`
+
+
+## TODO:
+- [ ] Add problems section just like in series
+- [ ] Write missing tests
