@@ -13,7 +13,7 @@ def method3(l: list) -> list:
     l = [[1, 2, 3, 4, 5], [6, 7, 8, 9, 0]]
     for i in l:
         for j in i:
-            print(j, end=' ')
+            print(j, end=" ")
 
 
 if __name__ == "__main__":
