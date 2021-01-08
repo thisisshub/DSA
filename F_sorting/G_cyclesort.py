@@ -20,7 +20,7 @@ def method1(ll: list) -> list:
 
             while pos != cycleStart:
                 pos = cycleStart
-                
+
                 for i in range(cycleStart + 1, len(ll)):
                     if ll[i] < item:
                         pos += 1
