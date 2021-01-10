@@ -7,9 +7,6 @@ install:
 script:
   - python3 -m pytest --color=yes --verbose tests/
 
-env:
-  - CODECOV_TOKEN="1903b100-26fd-48df-9d9a-3ec9b67e2556"
-
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 

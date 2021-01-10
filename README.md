@@ -1,7 +1,15 @@
 # DSA
 ## Status
-[![Build Status](https://travis-ci.org/thisisshub/DSA.png)](https://travis-ci.org/thisisshub/DSA)
-<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+![Travis (.org)](https://img.shields.io/travis/thisisshub/DSA?style=flat-square)
+![Codacy grade](https://img.shields.io/codacy/grade/28b16c91194349b4baa13779c57de794?style=flat-square)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/thisisshub/100)&nbsp;
+![GitHub repo size](https://img.shields.io/github/repo-size/thisisshub/DSA?style=flat-square)
+![Lines of code](https://img.shields.io/tokei/lines/github/thisisshub/DSA?style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/thisisshub/DSA?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/thisisshub/DSA?style=flat-square)    
+![GitHub forks](https://img.shields.io/github/forks/thisisshub/DSA?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/thisisshub/DSA?style=flat-square)
+![GitHub watchers](https://img.shields.io/github/watchers/thisisshub/DSA?style=flat-square)
 
 ## Ugh, not another DSA repository but anyway. What the fork is this?
 This repository is the implementation of the contents DSA self paced series by yours truly but in Python
