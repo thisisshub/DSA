@@ -7,7 +7,7 @@
 This repository is the implementation of the contents DSA self paced series by yours truly but in Python
 
 ## Aren't we supposed to learn DSA in say C++?
-YOU SHOULD but we both know you can't or won't write C++
+YOU SHOULD but we both know you won't or can't write C++
 
 ## So, what's up with your code? Why should I look into it?
 
