@@ -10,7 +10,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/thisisshub/DSA?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/thisisshub/DSA?style=flat-square)
 ![GitHub watchers](https://img.shields.io/github/watchers/thisisshub/DSA?style=flat-square)
-[![codecov](https://codecov.io/gh/thisisshub/DSA/branch/main/graph/badge.svg?token=7BBEW1607T)](https://codecov.io/gh/thisisshub/DSA)
+
 
 ## Ugh, not another DSA repository but anyway. What the fork is this?
 This repository is the implementation of the contents DSA self paced series by yours truly but in Python
