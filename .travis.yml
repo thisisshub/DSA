@@ -6,11 +6,6 @@ install:
 
 script:
   - python3 -m pytest --color=yes --verbose tests/
-  - python3 -m pytest --verbose --color=yes --cov=. --assert=plain
-
-
-after_success:
-  - codecov
 
 notifications:
   email:
