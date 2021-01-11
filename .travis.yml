@@ -2,15 +2,15 @@ language:
   - python
 
 install:
-  - pip install pytest coverage
+  - pip install pytest codecov coverage
 
 script:
   - python3 -m pytest --color=yes --verbose tests/
-  - python3 -m coverage run -m pytest .
+  - python3 -m pytest --verbose --color=yes --cov=. --assert=plain
 
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - codecov
 
 notifications:
   email:
