@@ -2,7 +2,7 @@ language:
   - python
 
 install:
-  - pip install pytest-cov pytest codecov
+  - pip install pytest coverage
 
 script:
   - python3 -m pytest --color=yes --verbose tests/
