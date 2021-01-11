@@ -1,6 +1,0 @@
-{
-    "jest": {
-      "collectCoverage": true,
-      "coverageReporters": ["html", "lcov"]
-    }
-  }
