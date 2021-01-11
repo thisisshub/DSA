@@ -6,6 +6,8 @@ install:
 
 script:
   - python3 -m pytest --color=yes --verbose tests/
+  - coverage run -m unittest discover
+
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
