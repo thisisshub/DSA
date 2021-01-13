@@ -1,6 +1,6 @@
 def method1():
     a = [1, 2, 3, 4, 5]
-    for i in range(1):
+    for _ in range(1):
         f = a[0]
         for j in range(0, len(a) - 1):
             a[j] = a[j + 1]

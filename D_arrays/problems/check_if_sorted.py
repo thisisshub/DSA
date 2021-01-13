@@ -1,7 +1,7 @@
 def method1(ll: list, n: int) -> bool:
     import sys
+
     minEle = sys.maxsize
-    maxEle = -sys.maxsize - 1
     minIndex = -1
     for i in range(n):
         if ll[i] < minEle:
@@ -17,9 +17,9 @@ def method1(ll: list, n: int) -> bool:
         if ll[i] < ll[i - 1]:
             flag2 = 0
             break
-    return (True if (flag1 and flag2 and ll[n - 1] < ll[0]) else False)
-    
-    
+    return True if (flag1 and flag2 and ll[n - 1] < ll[0]) else False
+
+
 if __name__ == "__main__":
     """
     from timeit import timeit
