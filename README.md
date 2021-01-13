@@ -50,5 +50,5 @@ Fork no, but still for the best result I ran the methods 10 thousand times each.
 
 
 ## TODO:
-- [ ] Add problems section just like in series
-- [ ] Write missing tests
+- See [Projects](https://github.com/thisisshub/DSA/projects/1)
+- Add Tests
