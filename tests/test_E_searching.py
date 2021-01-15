@@ -2,8 +2,8 @@ import sys
 
 sys.path.append("../")
 
-from E_searching import A_binary_search_iterative, B_binary_search_recursive
-
+from E_searching.iterative import A_binary_search_iterative
+from E_searching.recursive import B_binary_search_recursive
 
 class Test_E_searching:
     def test_A_binary_search_iterative(self):
