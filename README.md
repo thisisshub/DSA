@@ -2,7 +2,7 @@
 ## Status
 ![Travis (.org)](https://img.shields.io/travis/thisisshub/DSA?style=flat-square)
 ![Codacy grade](https://img.shields.io/codacy/grade/28b16c91194349b4baa13779c57de794?style=flat-square)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/thisisshub/100)&nbsp;
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/thisisshub)&nbsp;
 ![GitHub repo size](https://img.shields.io/github/repo-size/thisisshub/DSA?style=flat-square)
 ![Lines of code](https://img.shields.io/tokei/lines/github/thisisshub/DSA?style=flat-square)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/thisisshub/DSA?style=flat-square)
