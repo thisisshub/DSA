@@ -2,7 +2,8 @@ def findPeakUtil(ll: list, low: int, high: int, n: int) -> list:
     mid = low + (high - low) / 2
     mid = int(mid)
     if (mid == 0 or ll[mid - 1] <= ll[mid]) and (
-        mid == n - 1 or ll[mid + 1] <= ll[mid]):
+        mid == n - 1 or ll[mid + 1] <= ll[mid]
+    ):
         return mid
     elif mid > 0 and ll[mid - 1] > ll[mid]:
         return findPeakUtil(ll, low, (mid - 1), n)
