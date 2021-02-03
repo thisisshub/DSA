@@ -11,8 +11,12 @@ class LinkedList:
 
 
 if __name__ == "__main__":
+    """
+    from timeit import timeit
     Llist = LinkedList()
     Llist.head = Node(1)
     second = Node(2)
     third = Node(3)
     second.next = third
+    print(timeit(lambda: Llist, number=10000)) # 0.00037003099987487076
+    """
