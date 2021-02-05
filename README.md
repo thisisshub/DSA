@@ -1,4 +1,5 @@
 # DSA
+
 ## Status
 ![Travis (.org)](https://img.shields.io/travis/thisisshub/DSA?style=flat-square)
 ![Codacy grade](https://img.shields.io/codacy/grade/28b16c91194349b4baa13779c57de794?style=flat-square)
@@ -10,7 +11,23 @@
 ![GitHub forks](https://img.shields.io/github/forks/thisisshub/DSA?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/thisisshub/DSA?style=flat-square)
 ![GitHub watchers](https://img.shields.io/github/watchers/thisisshub/DSA?style=flat-square)
+![GitHub](https://img.shields.io/github/license/thisisshub/DSA?style=flat-square)
 
+## Contents
+- [A: Mathematics](https://github.com/thisisshub/DSA/blob/main/A_mathematics/Z_mathematics.md)
+- [B: Bit Magic](https://github.com/thisisshub/DSA/blob/main/B_bit_magic/Z_bit_magic.md)
+- [C: Recursion](https://github.com/thisisshub/DSA/blob/main/C_recursion/Z_recursion.md)
+- [D: Arrays](https://github.com/thisisshub/DSA/blob/main/D_arrays/Z_arrays.md)
+- [E: Searching](https://github.com/thisisshub/DSA/blob/main/E_searching/Z_searching.m)
+- [F: Sorting](https://github.com/thisisshub/DSA/blob/main/F_sorting/Z_sorting.md)
+- [G: Matrix](https://github.com/thisisshub/DSA/blob/main/G_matrix/Z_matrix.md)
+- [H: Hashing](https://github.com/thisisshub/DSA/blob/main/H_hashing/problems/Z_hashing.md])
+- [I: String](https://github.com/thisisshub/DSA/blob/main/I_string/Z_string.md)
+- [J: Linked List](https://github.com/thisisshub/DSA/blob/main/J_linked_list/Z_linked_list.md)
+- [K: Stack](https://github.com/thisisshub/DSA/blob/main/K_stack/Z_stack.md)
+- [L: Queue](https://github.com/thisisshub/DSA/blob/main/L_queue/Z_queue.md)
+- [M: Dequeue](https://github.com/thisisshub/DSA/blob/main/M_dequeue/Z_dequeue.md)
+- [N: Tree](https://github.com/thisisshub/DSA/blob/main/N_tree/Z_tree.md)
 
 ## Ugh, not another DSA repository but anyway. What the fork is this?
 This repository is the implementation of the contents DSA self paced series by yours truly but in Python
@@ -27,21 +44,21 @@ Well, if you look closely, I mean really closely you could see the `timeit` modu
 
 ```python
 
-def method1(n: int) -> int:
-    return len(str(n)) if n >= 0 else len(str(n)) - 1
+def method1(n: int] -> int:
+    return len(str(n]] if n >= 0 else len(str(n]] - 1
 
 
-def method2(n: int) -> int:
+def method2(n: int] -> int:
     import math
 
-    return int(math.log10(n) + 1 if n > 0 else (1 if n == 0 else math.log10(-n) + 1))
+    return int(math.log10(n] + 1 if n > 0 else (1 if n == 0 else math.log10(-n] + 1]]
 
 
 if __name__ == "__main__":
     """
     from timeit import timeit
-    print(timeit(lambda: method1(1234567890), number=10000)) # 0.0022839140001451597
-    print(timeit(lambda: method2(1234567890), number=10000)) # 0.004222848001518287
+    print(timeit(lambda: method1(1234567890], number=10000]] # 0.0022839140001451597
+    print(timeit(lambda: method2(1234567890], number=10000]] # 0.004222848001518287
     """
 ```
 
@@ -51,4 +68,6 @@ Fork no, but still for the best result I ran the methods 10 thousand times each.
 
 ## TODO:
 - See [Projects](https://github.com/thisisshub/DSA/projects/1)
-- Add Tests
+
+## Contributors
+- See [CONTRIBUTING.md](CONTRIBUTING.md)
