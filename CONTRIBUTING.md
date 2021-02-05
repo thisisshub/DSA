@@ -5,7 +5,7 @@
 * Tell me which OS you're using 
 * Tell me which Python version you're using `python --version`
 * Tell me which Kernel you're running: `uname -a`
-* List the steps you've taken so far,
+* List the steps you've taken so far
 * And any solutions you've tried
 * And a paste/picture of the complete output from the failing script/library would be helpful more than you think!
 
