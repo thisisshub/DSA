@@ -44,11 +44,11 @@ Well, if you look closely, I mean really closely you could see the `timeit` modu
 
 ```python
 
-def method1(n: int] -> int:
+def method1(n: int) -> int:
     return len(str(n]] if n >= 0 else len(str(n]] - 1
 
 
-def method2(n: int] -> int:
+def method2(n: int) -> int:
     import math
 
     return int(math.log10(n] + 1 if n > 0 else (1 if n == 0 else math.log10(-n] + 1]]
