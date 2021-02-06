@@ -28,6 +28,7 @@
 - [L: Queue](https://github.com/thisisshub/DSA/blob/main/L_queue/Z_queue.md)
 - [M: Dequeue](https://github.com/thisisshub/DSA/blob/main/M_dequeue/Z_dequeue.md)
 - [N: Tree](https://github.com/thisisshub/DSA/blob/main/N_tree/Z_tree.md)
+- [O: Binary Search Tree](https://github.com/thisisshub/DSA/blob/main/O_binary_search_tree/Z_binary_search_tree.md)
 
 ## Ugh, not another DSA repository but anyway. What the fork is this?
 This repository is the implementation of the contents DSA self paced series by yours truly but in Python
