@@ -6,12 +6,10 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](https://www.paypal.com/paypalme/thisisshub)&nbsp;
 ![GitHub repo size](https://img.shields.io/github/repo-size/thisisshub/DSA?style=flat-square)
 ![Lines of code](https://img.shields.io/tokei/lines/github/thisisshub/DSA?style=flat-square)
+
+
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/thisisshub/DSA?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/thisisshub/DSA?style=flat-square)    
-![GitHub forks](https://img.shields.io/github/forks/thisisshub/DSA?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/thisisshub/DSA?style=flat-square)
-![GitHub watchers](https://img.shields.io/github/watchers/thisisshub/DSA?style=flat-square)
-![GitHub](https://img.shields.io/github/license/thisisshub/DSA?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/thisisshub/DSA?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/thisisshub/DSA?style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/thisisshub/DSA?style=flat-square) ![GitHub watchers](https://img.shields.io/github/watchers/thisisshub/DSA?style=flat-square) ![GitHub](https://img.shields.io/github/license/thisisshub/DSA?style=flat-square)
 
 ## Contents
 - [A: Mathematics](https://github.com/thisisshub/DSA/blob/main/A_mathematics/Z_mathematics.md)
@@ -31,6 +29,7 @@
 - [O: Binary Search Tree](https://github.com/thisisshub/DSA/blob/main/O_binary_search_tree/Z_binary_search_tree.md)
 - [P: Heap](https://github.com/thisisshub/DSA/blob/main/P_heap/Z_heap.md)
 - [Q: Graphs](https://github.com/thisisshub/DSA/blob/main/Q_graphs/Z_graphs.md)
+- [R: Greedy](https://github.com/thisisshub/DSA/blob/main/R_greedy/Z_greedy.md)
 
 ## Ugh, not another DSA repository but anyway. What the fork is this?
 This repository is the implementation of the contents DSA self paced series by yours truly but in Python
