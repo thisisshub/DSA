@@ -31,6 +31,7 @@
 - [Q: Graphs](https://github.com/thisisshub/DSA/blob/main/Q_graphs/Z_graphs.md)
 - [R: Greedy](https://github.com/thisisshub/DSA/blob/main/R_greedy/Z_greedy.md)
 - [S: Backtracking](https://github.com/thisisshub/DSA/blob/main/S_backtracking/Z_backtracking.md)
+- [T: Dynamic Programming](https://github.com/thisisshub/DSA/blob/main/T_dynamic_programming/Z_dynamic_programming.md)
 
 ## Ugh, not another DSA repository but anyway. What the fork is this?
 This repository is the implementation of the contents DSA self paced series by yours truly but in Python
