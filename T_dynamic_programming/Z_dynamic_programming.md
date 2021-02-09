@@ -14,7 +14,7 @@
 - [Maximum Sum With No Consecutive](https://github.com/thisisshub/DSA/blob/main/T_dynamic_programming/problems/I_maximum_sum_with_no_consecutive.py)
 - [Subset Sum Problem](https://github.com/thisisshub/DSA/blob/main/T_dynamic_programming/problems/J_subset_sum_problem.py)
 - [Matrix Chain Multiplication](https://github.com/thisisshub/DSA/blob/main/T_dynamic_programming/problems/K_matrix_chain_multiplication.py)
-- [Palindrome Parititioning](https://github.com/thisisshub/DSA/blob/main/T_dynamic_programming/problems/L_palindrome_parititioning.py)## Edit Distance Problem
+- [Palindrome Parititioning](https://github.com/thisisshub/DSA/blob/main/T_dynamic_programming/problems/L_palindrome_parititioning.py)
 - [Naive Approach](https://github.com/thisisshub/DSA/blob/main/T_dynamic_programming/problems/edit_distance_problem/A_naive_approach.py)
 - [Dp Approach](https://github.com/thisisshub/DSA/blob/main/T_dynamic_programming/problems/edit_distance_problem/B_dp_approach.py)
 
