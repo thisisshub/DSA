@@ -50,10 +50,10 @@ def solveMazeUtil(maze, x, y, sol):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     maze = [[1, 0, 0, 0], [1, 1, 0, 1], [0, 1, 0, 0], [1, 1, 1, 1]]
 
-    print(timeit(lambda: solveMaze(maze), number=10000))  # 0.26687077400129056
-    """
+    print(timeit(lambda: solveMaze(maze), number=10000))  
+    

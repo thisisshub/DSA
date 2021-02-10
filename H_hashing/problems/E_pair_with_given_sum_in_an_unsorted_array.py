@@ -16,9 +16,9 @@ def method1(ll: list, arr_size: int, sum: int) -> int:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     ll = [1, 4, 45, 6, 10, 8]
     n = 16
-    print(timeit(lambda: method1(ll, len(ll), n))) # 0.6651965910059516
-    """
+    print(timeit(lambda: method1(ll, len(ll), n))) 
+    

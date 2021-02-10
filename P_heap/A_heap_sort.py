@@ -27,10 +27,10 @@ def heapSort(arr):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     arr = [12, 11, 13, 5, 6, 7]
     n = len(arr)
-    print(timeit(lambda: heapSort(arr), number=10000))  # 0.049621981001109816
-    """
+    print(timeit(lambda: heapSort(arr), number=10000))  
+    

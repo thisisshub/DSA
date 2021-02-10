@@ -32,7 +32,7 @@ def verticalSum(root):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = newNode(1)
@@ -43,5 +43,5 @@ if __name__ == "__main__":
     root.right.left = newNode(6)
     root.right.right = newNode(7)
 
-    print(timeit(lambda: verticalSum(root), number=10000))  # 0.1557436530056293
-    """
+    print(timeit(lambda: verticalSum(root), number=10000))  
+    

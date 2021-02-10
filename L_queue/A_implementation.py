@@ -17,8 +17,8 @@ def method1(queue: list) -> list:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
-    print(timeit(lambda: method1([]), number=10000)) # 0.8325513340023463
-    """
+    print(timeit(lambda: method1([]), number=10000)) 
+    

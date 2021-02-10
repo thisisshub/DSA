@@ -17,7 +17,7 @@ class Graph:
 
         if v in self.graph.keys():
             for node, weight in self.graph[v]:
-                weight = weight  # unused variable
+                weight = weight  
                 if visited[node] == False:
                     self.topologicalSortUtil(node, visited, stack)
 
@@ -48,7 +48,7 @@ class Graph:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     g = Graph(6)
@@ -64,5 +64,5 @@ if __name__ == "__main__":
 
     s = 1
 
-    print(timeit(lambda: g.shortestPath(s), number=10000))  # 0.22385385600136942
-    """
+    print(timeit(lambda: g.shortestPath(s), number=10000))  
+    

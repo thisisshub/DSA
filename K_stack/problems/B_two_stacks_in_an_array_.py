@@ -46,7 +46,7 @@ class TwoStacks:
 
 
 if __name__ == "__main__":\
-	"""
+	
 	from timeit import timeit
 	ts = TwoStacks(5) 
 	ts.push1(1) 
@@ -54,5 +54,5 @@ if __name__ == "__main__":\
 	ts.push2(3) 
 	ts.push1(4) 
 	ts.push2(5) 
-	print(timeit(lambda: ts, number=10000)) # 0.0004057340011058841
-	"""
+	print(timeit(lambda: ts, number=10000)) 
+	

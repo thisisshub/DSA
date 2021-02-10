@@ -13,7 +13,7 @@ def size(node):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(1)
@@ -22,5 +22,5 @@ if __name__ == "__main__":
     root.left.left = Node(4)
     root.left.right = Node(5)
 
-    print(timeit(lambda: size(root), number=10000))  # 0.009357142997032497
-    """
+    print(timeit(lambda: size(root), number=10000))  
+    

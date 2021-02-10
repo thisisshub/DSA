@@ -10,8 +10,8 @@ class CircularLinkedList:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     clist = CircularLinkedList()
-    print(timeit(lambda: clist, number=10000)) # 0.0003614770000126555
-    """
+    print(timeit(lambda: clist, number=10000)) 
+    

@@ -28,8 +28,8 @@ def method2(s1: str, s2: str) -> bool:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1("thisisastring", "stringthisisa"), number=10000)) # 0.015203513999949791
-    print(timeit(lambda: method2("thisisastring", "stringthisisa"), number=10000)) # 0.12443715199970029
-    """
+    print(timeit(lambda: method1("thisisastring", "stringthisisa"), number=10000)) 
+    print(timeit(lambda: method2("thisisastring", "stringthisisa"), number=10000)) 
+    

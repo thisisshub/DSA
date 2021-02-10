@@ -57,10 +57,10 @@ def method2(arr):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     arr = [11, 13, 21, 3]
-    print(timeit(lambda: method1(), number=10000))  # 0.003247513002861524
-    print(timeit(lambda: method2(arr), number=10000))  # 0.008851628001139034
-    """
+    print(timeit(lambda: method1(), number=10000))  
+    print(timeit(lambda: method2(arr), number=10000))  
+    

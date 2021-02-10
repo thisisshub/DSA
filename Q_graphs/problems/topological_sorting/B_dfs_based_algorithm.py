@@ -12,8 +12,8 @@ def dfs(visited, graph, node):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
-    print(timeit(lambda: dfs(visited, graph, "A"), number=10000)) # 0.001466015000914922
-    """
+    print(timeit(lambda: dfs(visited, graph, "A"), number=10000)) 
+    

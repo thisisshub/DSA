@@ -23,11 +23,11 @@ def sort_k(arr: list, n: int, k: int):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     k = 3
     arr = [2, 6, 3, 12, 56, 8]
     n = len(arr)
-    print(timeit(lambda: sort_k(arr, n, k), number=10000))  # 0.010045346996776061
-    """
+    print(timeit(lambda: sort_k(arr, n, k), number=10000))  
+    

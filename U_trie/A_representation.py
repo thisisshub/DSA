@@ -12,8 +12,8 @@ def method1(*words):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
-    print(timeit(lambda: method1("foo", "bar", "bob", "cat")))  # 1.2939369230007287
-    """
+    print(timeit(lambda: method1("foo", "bar", "bob", "cat")))  
+    

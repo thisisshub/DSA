@@ -38,14 +38,14 @@ class LinkedList:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     llist = LinkedList()
     llist.push(1)
     llist.push(2)
     llist.push(3)
     llist.push(4)
-    print(timeit(lambda: llist.print_list(), number=10000)) # 0.0039678699995420175
-    print(timeit(lambda: llist.reverse(), number=10000)) # 0.004114342000320903
-    print(timeit(lambda: llist.print_list(), number=10000)) # 0.003999239999757265
-    """
+    print(timeit(lambda: llist.print_list(), number=10000)) 
+    print(timeit(lambda: llist.reverse(), number=10000)) 
+    print(timeit(lambda: llist.print_list(), number=10000)) 
+    

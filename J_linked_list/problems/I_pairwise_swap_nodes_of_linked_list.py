@@ -34,7 +34,7 @@ class LinkedList:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     llist = LinkedList()
     llist.push(5)
@@ -43,5 +43,5 @@ if __name__ == "__main__":
     llist.push(2)
     llist.push(1)
     llist.pairwiseSwap()
-    print(timeit(lambda: llist.printList(), number=10000))  # 0.27164168400122435
-    """
+    print(timeit(lambda: llist.printList(), number=10000))  
+    

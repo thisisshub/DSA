@@ -41,7 +41,7 @@ def method1(root, n1, n2):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(1)
@@ -52,5 +52,5 @@ if __name__ == "__main__":
     root.right.left = Node(6)
     root.right.right = Node(7)
 
-    print(timeit(lambda: method1(root, 4, 5), number=10000))  # 0.01732934000028763
-    """
+    print(timeit(lambda: method1(root, 4, 5), number=10000))  
+    

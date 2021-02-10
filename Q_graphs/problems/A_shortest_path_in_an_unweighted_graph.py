@@ -62,7 +62,7 @@ def printShortestDistance(adj, s, dest, v):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     v = 8
@@ -81,5 +81,5 @@ if __name__ == "__main__":
     add_edge(adj, 6, 7)
     source = 0
     dest = 7
-    print(timeit(lambda: printShortestDistance(adj, source, dest, v), number=10000)) # 0.29925634900064324
-    """
+    print(timeit(lambda: printShortestDistance(adj, source, dest, v), number=10000)) 
+    

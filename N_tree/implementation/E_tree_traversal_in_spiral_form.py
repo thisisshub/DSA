@@ -50,7 +50,7 @@ def height(node):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = newNode(1)
@@ -61,5 +61,5 @@ if __name__ == "__main__":
     root.right.left = newNode(5)
     root.right.right = newNode(4)
 
-    print(timeit(lambda: printSpiral(root), number=10000))  # 0.08272517399745993
-    """
+    print(timeit(lambda: printSpiral(root), number=10000))  
+    

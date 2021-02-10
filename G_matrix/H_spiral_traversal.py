@@ -2,11 +2,11 @@ def method1():
     def spiralPrint(m, n, a):
         k = 0
         l = 0
-        """ k - starting row index 
+        
         m - ending row index 
         l - starting column index 
         n - ending column index 
-        i - iterator """
+        i - iterator 
         while k < m and l < n:
             for i in range(l, n):
                 print(a[k][i], end=" ")
@@ -34,7 +34,7 @@ def method1():
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1(), number=10000)) # 0.17249211399985143
-    """
+    print(timeit(lambda: method1(), number=10000)) 
+    

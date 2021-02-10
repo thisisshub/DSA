@@ -20,7 +20,7 @@ n = len(arr)
 print(method1(arr, n, k))
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1(arr, n, k), number=10000)) # 0.03456093000204419
-    """
+    print(timeit(lambda: method1(arr, n, k), number=10000)) 
+    

@@ -57,8 +57,8 @@ def solveNQ():
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
-    print(timeit(lambda: solveNQ(), number=10000)) # 0.514471112001047
-    """
+    print(timeit(lambda: solveNQ(), number=10000)) 
+    

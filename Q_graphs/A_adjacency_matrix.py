@@ -40,8 +40,8 @@ def main():
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
-    print(timeit(lambda: main(), number=10000))  # 1.204392577001272
-    """
+    print(timeit(lambda: main(), number=10000))  
+    

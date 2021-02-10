@@ -40,7 +40,7 @@ for i in range(5, 0, -1):
     llist.printMiddle()
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: llist.printMiddle(), number=10000)) # 0.15231092200065177
-    """
+    print(timeit(lambda: llist.printMiddle(), number=10000)) 
+    

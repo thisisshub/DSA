@@ -31,7 +31,7 @@ def getfullCount(root):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(2)
@@ -44,4 +44,4 @@ if __name__ == "__main__":
     root.right.right.left = Node(4)
 
     print(timeit(lambda: (getfullCount(root)), number=10000))
-    """
+    

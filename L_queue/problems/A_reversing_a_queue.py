@@ -22,7 +22,7 @@ def method1():
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     queue = Queue()
@@ -37,4 +37,4 @@ if __name__ == "__main__":
     queue.put(9)
     queue.put(10)
     print(timeit(lambda: method1(), number=10000))
-    """
+    

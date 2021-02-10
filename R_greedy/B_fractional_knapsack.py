@@ -34,7 +34,7 @@ class FractionalKnapSack:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     wt = [10, 40, 20, 30]
@@ -42,5 +42,5 @@ if __name__ == "__main__":
     capacity = 50
 
     maxValue = FractionalKnapSack.getMaxValue(wt, val, capacity)
-    print(timeit(lambda: maxValue, number=10000))  # 0.00045536499965237454
-    """
+    print(timeit(lambda: maxValue, number=10000))  
+    

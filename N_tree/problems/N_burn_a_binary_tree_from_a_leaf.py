@@ -30,7 +30,7 @@ def time_to_burn(root, start):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(1)
@@ -44,5 +44,5 @@ if __name__ == "__main__":
     root.right.right.right = Node(1)
     root.right.right.right.right = Node(1)
 
-    print(timeit(lambda: time_to_burn(root, root.left.right.right), number=10000))  # 0.026541252998868003
-    """
+    print(timeit(lambda: time_to_burn(root, root.left.right.right), number=10000))  
+    

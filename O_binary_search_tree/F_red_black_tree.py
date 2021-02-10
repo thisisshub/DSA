@@ -315,7 +315,7 @@ class RedBlackTree:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     bst = RedBlackTree()
@@ -328,4 +328,4 @@ if __name__ == "__main__":
     bst.insert(57)
 
     print(timeit(lambda: bst.print_tree(), number=10000))
-    """
+    

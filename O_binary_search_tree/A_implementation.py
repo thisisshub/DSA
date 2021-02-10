@@ -26,7 +26,7 @@ def inorder(root):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     r = Node(50)
@@ -37,6 +37,6 @@ if __name__ == "__main__":
     r = insert(r, 60)
     r = insert(r, 80)
 
-    print(timeit(lambda: inorder(r), number=10000))  # 0.4426064440012851
-    """
+    print(timeit(lambda: inorder(r), number=10000))  
+    
 

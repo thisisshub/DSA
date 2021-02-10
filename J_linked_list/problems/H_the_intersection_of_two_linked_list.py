@@ -22,7 +22,7 @@ def getIntersectionNode(head1, head2):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     newNode = None
     head1 = Node()
@@ -43,5 +43,5 @@ if __name__ == "__main__":
     newNode.data = 30
     head1.next.next = newNode
     head1.next.next.next = None
-    print(timeit(lambda: getIntersectionNode(head1, head2), number=10000))  # 0.0124431709991768
-    """
+    print(timeit(lambda: getIntersectionNode(head1, head2), number=10000))  
+    

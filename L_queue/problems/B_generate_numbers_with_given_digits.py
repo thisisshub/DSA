@@ -15,7 +15,7 @@ def method1():
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1(), number=100000)) # 19.001043160002155
-    """
+    print(timeit(lambda: method1(), number=100000)) 
+    

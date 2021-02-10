@@ -30,7 +30,7 @@ def traverse(head):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     head = None
     head = insertEnd(head, 6)
@@ -38,5 +38,5 @@ if __name__ == "__main__":
     head = insertEnd(head, 10)
     head = insertEnd(head, 12)
     head = insertEnd(head, 14)
-    print(timeit(lambda: traverse(head), number=10000)) # 0.04721847000109847
-    """
+    print(timeit(lambda: traverse(head), number=10000)) 
+    

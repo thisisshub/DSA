@@ -38,10 +38,10 @@ class Evaluate:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     exp = "231*+9-"
     obj = Evaluate(len(exp))
-    print(timeit(lambda: obj.evaluatePostfix(exp), number=10000))  # 0.15434936900419416
-    """
+    print(timeit(lambda: obj.evaluatePostfix(exp), number=10000))  
+    

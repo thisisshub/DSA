@@ -26,7 +26,7 @@ class PriorityQueue(object):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     myQueue = PriorityQueue()
@@ -34,5 +34,5 @@ if __name__ == "__main__":
     myQueue.insert(1)
     myQueue.insert(14)
     myQueue.insert(7)
-    print(timeit(lambda: myQueue, number=10000))  # 0.0003760149993468076
-    """
+    print(timeit(lambda: myQueue, number=10000))  
+    

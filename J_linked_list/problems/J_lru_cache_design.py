@@ -33,4 +33,4 @@ if __name__ == "__main__":
     cache.get(1)
     cache.get(3)
     cache.get(4)
-    print(timeit(lambda: cache.cache, number=10000))  # 0.0005562089991144603
+    print(timeit(lambda: cache.cache, number=10000))  

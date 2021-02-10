@@ -4,8 +4,8 @@ def method1(pat: str, txt: str, g: int) -> int:
     n = len(txt)
     i = 0
     j = 0
-    p = 0  # hash value for pattern
-    t = 0  # hash value for txt
+    p = 0  
+    t = 0  
     h = 1
 
     for i in range(m - 1):
@@ -27,10 +27,10 @@ def method1(pat: str, txt: str, g: int) -> int:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     txt = "this is a string"
     pat = "this"
     g = 101
-    print(timeit(lambda: method1(txt, pat, g), number=10000)) # 0.009983864998503122
-    """
+    print(timeit(lambda: method1(txt, pat, g), number=10000)) 
+    

@@ -21,9 +21,9 @@ def method1(ll: list, n: int) -> bool:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     ll = [3, 4, 5, 1, 2]
     n = len(ll)
-    print(timeit(lambda: method1(ll, n), number=10000)) # 0.0164304289996835
-    """
+    print(timeit(lambda: method1(ll, n), number=10000)) 
+    

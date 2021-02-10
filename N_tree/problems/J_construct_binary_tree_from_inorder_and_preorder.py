@@ -43,7 +43,7 @@ def method1(node):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     inOrder = ["D", "B", "E", "A", "F", "C"]
@@ -52,5 +52,5 @@ if __name__ == "__main__":
     buildTree.preIndex = 0
     root = buildTree(inOrder, preOrder, 0, len(inOrder) - 1)
 
-    print(timeit(lambda: method1(root), number=10000))  # 0.2564627779938746
-    """
+    print(timeit(lambda: method1(root), number=10000))  
+    

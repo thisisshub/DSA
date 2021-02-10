@@ -10,8 +10,8 @@ def method1(price: list, n: int) -> int:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     prices = [1, 5, 8, 9, 10, 17, 17, 20]
-    print(timeit(lambda: method1(prices, len(prices)), number=10000)) # 1.6864704039999197
-    """
+    print(timeit(lambda: method1(prices, len(prices)), number=10000)) 
+    

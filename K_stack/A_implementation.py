@@ -1,4 +1,4 @@
-# method1
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -85,14 +85,14 @@ def method3():
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     stack_ = Stack()
     for i in range(1, 11):
         stack_.push(i)
-    print(timeit(lambda: f"Stack: {stack_}", number=10000)) # 0.0233232409991615
+    print(timeit(lambda: f"Stack: {stack_}", number=10000)) 
 
-    print(timeit(lambda: method2(), number=10000)) # 0.8586116020014742
-    print(timeit(lambda: method3(), number=10000)) # 0.9672414289998414
-    """
+    print(timeit(lambda: method2(), number=10000)) 
+    print(timeit(lambda: method3(), number=10000)) 
+    

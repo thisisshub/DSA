@@ -20,10 +20,10 @@ def method1(ll: list, k: int, n: int) -> int:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     ll = [1, 2, 1, 3, 4, 2, 3]
     n = len(ll)
     k = 4
-    print(timeit(lambda: method1(ll, k, n), number=10000)) # 0.2502135280010407
-    """
+    print(timeit(lambda: method1(ll, k, n), number=10000)) 
+    

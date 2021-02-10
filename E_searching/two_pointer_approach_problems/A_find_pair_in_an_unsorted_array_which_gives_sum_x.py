@@ -37,10 +37,10 @@ def method2(A, arr_size, sum):
 
 
 if __name__ == "__main__":
-    """
+    
     A = [1, 4, 45, 6, 10, 8]
     n = 16
     from timeit import timeit
-    print(timeit(lambda: method1(A, len(A), n), number=10000)) # 0.007289881999895442
-    print(timeit(lambda: method2(A, len(A), n), number=10000)) # 0.046296988999529276
-    """
+    print(timeit(lambda: method1(A, len(A), n), number=10000)) 
+    print(timeit(lambda: method2(A, len(A), n), number=10000)) 
+    

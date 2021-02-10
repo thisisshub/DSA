@@ -70,7 +70,7 @@ class Trie:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     strings = ["pqrs", "pprt", "psst", "qqrs", "pqrs"]
@@ -79,5 +79,5 @@ if __name__ == "__main__":
     for word in strings:
         t.insert(word)
 
-    print(timeit(lambda: t.delete("pprt"), number=10000))  # 0.010122302002855577
-    """
+    print(timeit(lambda: t.delete("pprt"), number=10000))  
+    

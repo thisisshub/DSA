@@ -20,7 +20,7 @@ def method1():
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1(), number=10000)) # 0.06679722199987737
-    """
+    print(timeit(lambda: method1(), number=10000)) 
+    

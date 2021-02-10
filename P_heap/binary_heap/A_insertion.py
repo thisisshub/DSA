@@ -32,9 +32,9 @@ class MinHeap:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     heapObj = MinHeap()
-    print(timeit(lambda: heapObj.insertKey(1), number=10000))  # 0.0013612549955723807
-    """
+    print(timeit(lambda: heapObj.insertKey(1), number=10000))  
+    

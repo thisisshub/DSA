@@ -70,7 +70,7 @@ def solve_sudoku(arr):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     grid = [[0 for x in range(9)] for y in range(9)]
@@ -88,7 +88,7 @@ if __name__ == "__main__":
     ]
 
     if solve_sudoku(grid):
-        print(timeit(lambda: print_grid(grid), number=10000))  # 2.4790757890004897
+        print(timeit(lambda: print_grid(grid), number=10000))  
     else:
         print("No solution exists")
-    """
+    

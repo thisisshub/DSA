@@ -15,7 +15,7 @@ ll = [1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1]
 n = len(ll)
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1(ll, n), number=10000)) # 0.02980456100340234
-    """
+    print(timeit(lambda: method1(ll, n), number=10000)) 
+    

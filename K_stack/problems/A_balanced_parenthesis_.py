@@ -18,7 +18,7 @@ def method1(myStr: str) -> bool:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1("{[]{()}}"), number=10000)) # 0.013378982999711297
-    """
+    print(timeit(lambda: method1("{[]{()}}"), number=10000)) 
+    

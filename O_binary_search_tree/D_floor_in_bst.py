@@ -35,7 +35,7 @@ def floor(root, key):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = None
@@ -46,5 +46,5 @@ if __name__ == "__main__":
     insert(root, 6)
     insert(root, 8)
     insert(root, 12)
-    print(timeit(lambda: floor(root, 9), number=10000))  # 0.01083161299902713
-    """
+    print(timeit(lambda: floor(root, 9), number=10000))  
+    

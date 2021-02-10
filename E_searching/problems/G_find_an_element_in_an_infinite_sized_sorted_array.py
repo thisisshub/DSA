@@ -19,8 +19,8 @@ def method1(a, key):
   
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     ll = [3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170] 
-    print(timeit(lambda: method1(ll,10), number=10000)) # 0.007889933999649656
-    """
+    print(timeit(lambda: method1(ll,10), number=10000)) 
+    

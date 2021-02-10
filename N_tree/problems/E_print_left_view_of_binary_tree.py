@@ -24,7 +24,7 @@ def leftView(root):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(12)
@@ -33,5 +33,5 @@ if __name__ == "__main__":
     root.right.left = Node(25)
     root.right.right = Node(40)
 
-    print(timeit(lambda: leftView(root), number=10000))  # 0.2834473659968353
-    """
+    print(timeit(lambda: leftView(root), number=10000))  
+    

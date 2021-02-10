@@ -46,7 +46,7 @@ class Graph:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     g = Graph(9)
@@ -62,5 +62,5 @@ if __name__ == "__main__":
         [0, 0, 2, 0, 0, 0, 6, 7, 0],
     ]
 
-    print(timeit(lambda: g.dijkstra(0), number=10000)) # 0.6319218179996824
-    """
+    print(timeit(lambda: g.dijkstra(0), number=10000)) 
+    

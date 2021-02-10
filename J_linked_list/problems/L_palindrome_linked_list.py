@@ -27,7 +27,7 @@ def ispalindrome(head):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     one = Node(1)
@@ -47,5 +47,5 @@ if __name__ == "__main__":
     seven.ptr = None
 
     result = ispalindrome(one)
-    print(timeit(lambda: result, number=10000))  # 0.00036691099921881687
-    """
+    print(timeit(lambda: result, number=10000))  
+    

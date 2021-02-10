@@ -67,7 +67,7 @@ def deleteNode(root, key):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = None
@@ -79,5 +79,5 @@ if __name__ == "__main__":
     root = insert(root, 60)
     root = insert(root, 80)
 
-    print(timeit(lambda: deleteNode(root, 20), number=10000))  # 0.006583905000297818
-    """
+    print(timeit(lambda: deleteNode(root, 20), number=10000))  
+    

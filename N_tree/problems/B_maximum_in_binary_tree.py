@@ -20,7 +20,7 @@ def findMax(root):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = newNode(2)
@@ -33,4 +33,4 @@ if __name__ == "__main__":
     root.right.right.left = newNode(4)
 
     print(timeit(lambda: findMax(root)), number=10000)
-    """
+    

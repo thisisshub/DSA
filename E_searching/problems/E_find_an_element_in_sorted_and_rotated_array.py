@@ -36,10 +36,10 @@ def binarySearch(l, low, high, key):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     ll = [5, 6, 7, 8, 9, 10, 1, 2, 3]
     n = len(ll)
     key = 3
-    print(timeit(lambda: method1(ll, n, key))) # 1.2764019470005223
-    """
+    print(timeit(lambda: method1(ll, n, key))) 
+    

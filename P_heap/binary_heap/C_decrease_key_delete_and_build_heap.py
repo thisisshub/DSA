@@ -73,7 +73,7 @@ def floor_log2(x):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     fheap = FibonacciHeap()
@@ -84,7 +84,7 @@ if __name__ == "__main__":
     fheap.insert(26)
     fheap.insert(24)
 
-    print(timeit(lambda: fheap.get_min(), number=10000))  # 0.0015727249992778525
+    print(timeit(lambda: fheap.get_min(), number=10000))  
 
-    print(timeit(lambda: fheap.extract_min(), number=10000))  # 0.001127119001466781
-    """
+    print(timeit(lambda: fheap.extract_min(), number=10000))  
+    

@@ -88,7 +88,7 @@ class Stack:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     stack = Stack()
@@ -103,5 +103,5 @@ if __name__ == "__main__":
     stack.getMin()
     stack.pop()
     stack.peek()
-    print(timeit(lambda: stack.getMin(), number=10000))  # 0.30384991699975217
-    """
+    print(timeit(lambda: stack.getMin(), number=10000))  
+    

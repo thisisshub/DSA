@@ -58,7 +58,7 @@ def method1(head):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(10)
@@ -69,5 +69,5 @@ if __name__ == "__main__":
     root.right.left = Node(36)
 
     head = BTToDLL(root)
-    print(timeit(lambda: method1(head), number=10000))  # 0.05323586200393038
-    """
+    print(timeit(lambda: method1(head), number=10000))  
+    

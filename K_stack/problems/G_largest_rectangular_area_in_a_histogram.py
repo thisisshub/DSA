@@ -24,9 +24,9 @@ def method1(histogram):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     hist = [1, 2, 5, 4, 5, 1, 6]
-    print(timeit(lambda: method1(hist), number=10000)) # 0.027237262998824008
-    """
+    print(timeit(lambda: method1(hist), number=10000)) 
+    

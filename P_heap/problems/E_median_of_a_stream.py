@@ -30,8 +30,8 @@ for val in vals:
             print(float(-maxh[0] + minh[0]) / 2)
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
-    print(timeit((lambda: float(-maxh[0] + minh[0]) / 2), number=10000))  # 0.0013756349981122185
-    """
+    print(timeit((lambda: float(-maxh[0] + minh[0]) / 2), number=10000))  
+    

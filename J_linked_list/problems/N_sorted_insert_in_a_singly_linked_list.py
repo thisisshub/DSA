@@ -39,7 +39,7 @@ class LinkedList:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     llist = LinkedList()
@@ -55,5 +55,5 @@ if __name__ == "__main__":
     llist.sortedInsert(new_node)
     new_node = Node(9)
 
-    print(timeit(lambda: llist.sortedInsert(new_node), number=10000)) # 0.005962449999060482
-    """
+    print(timeit(lambda: llist.sortedInsert(new_node), number=10000)) 
+    

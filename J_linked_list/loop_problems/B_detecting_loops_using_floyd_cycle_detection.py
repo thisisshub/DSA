@@ -37,11 +37,11 @@ llist.push(4)
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     llist.head.next.next.next.next = llist.head
     if llist.detectLoop():
-        print(timeit(lambda: llist.detectLoop(), number=10000)) # 0.005036081999605813
+        print(timeit(lambda: llist.detectLoop(), number=10000)) 
     else:
         print("No loop")
-    """
+    

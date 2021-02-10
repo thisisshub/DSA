@@ -22,9 +22,9 @@ class Deque:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     obj = Deque()
-    print(timeit(lambda: obj, number=10000)) # 0.0005975749954814091
-    """
+    print(timeit(lambda: obj, number=10000)) 
+    

@@ -18,9 +18,9 @@ def method1(ll1: list, ll2: list, n: int) -> int:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     ll1 = [0, 1, 0, 1, 1, 1, 1]
     ll2 = [1, 1, 1, 1, 1, 0, 1]
-    print(timeit(lambda: method1(ll1, ll2, len(ll1)), number=10000)) # 0.03265197800647002
-    """
+    print(timeit(lambda: method1(ll1, ll2, len(ll1)), number=10000)) 
+    

@@ -12,4 +12,4 @@ if __name__ == "__main__":
     from timeit import timeit
 
     matrix = [[10, 20, 30, 40], [15, 15, 25, 55], [17, 19, 17, 18], [1, 8, 9, 2]]
-    print(timeit(lambda: method1(4, 4, matrix), number=10000))  # 0.1679946160002146
+    print(timeit(lambda: method1(4, 4, matrix), number=10000))  

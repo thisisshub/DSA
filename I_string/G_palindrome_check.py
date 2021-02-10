@@ -3,7 +3,7 @@ def method1(s: str) -> bool:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1("AABAA"), number=10000)) # 0.0018115240000042832
-    """
+    print(timeit(lambda: method1("AABAA"), number=10000)) 
+    

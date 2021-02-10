@@ -16,8 +16,8 @@ def method2(n: int) -> bool:
 
 
 if __name__ == "__main__":
-    """
+
     from timeit import timeit
-    print(timeit(lambda: method1(10), number=10000)) # 0.003867163999530021
-    print(timeit(lambda: method2(10), number=10000)) # 0.015483204999327427
-    """
+    print(timeit(lambda: method1(10), number=10000)) 
+    print(timeit(lambda: method2(10), number=10000)) 
+

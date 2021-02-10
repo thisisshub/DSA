@@ -67,10 +67,10 @@ class Conversion:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
         exp = "a+b*(c^d-e)^(f+g*h)-i"
     obj = Conversion(len(exp))
-    print(timeit(lambda: obj.infixToPostfix(exp), number=10000)) # 3.8537588519975543
-    """
+    print(timeit(lambda: obj.infixToPostfix(exp), number=10000)) 
+    

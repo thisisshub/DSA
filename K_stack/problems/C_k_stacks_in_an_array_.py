@@ -54,7 +54,7 @@ class KStacks:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     kstacks = KStacks(3, 10)
 
@@ -69,5 +69,5 @@ if __name__ == "__main__":
     kstacks.push(9, 0)
     kstacks.push(7, 0)
 
-    print(timeit(lambda: kstacks.printstack(0), number=10000)) # 0.12600649000160047
-    """
+    print(timeit(lambda: kstacks.printstack(0), number=10000)) 
+    

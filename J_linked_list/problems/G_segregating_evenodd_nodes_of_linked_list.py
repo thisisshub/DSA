@@ -63,7 +63,7 @@ def printList():
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     push(11)
     push(10)
@@ -73,5 +73,5 @@ if __name__ == "__main__":
     push(2)
     push(0)
     segregateEvenOdd()
-    print(timeit(lambda: printList(), number=10000)) # 0.10623525099981634
-    """
+    print(timeit(lambda: printList(), number=10000)) 
+    

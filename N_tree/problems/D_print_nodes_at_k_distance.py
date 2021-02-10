@@ -50,7 +50,7 @@ def printkDistanceNode(root, target, k):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(20)
@@ -61,5 +61,5 @@ if __name__ == "__main__":
     root.left.right.left = Node(10)
     root.left.right.right = Node(14)
     target = root.left.right
-    print(timeit(lambda: printkDistanceNode(root, target, 2), number=10000)) # 0.01410139200015692
-    """
+    print(timeit(lambda: printkDistanceNode(root, target, 2), number=10000)) 
+    

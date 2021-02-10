@@ -28,13 +28,13 @@ def method2(X, Y, m, n):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     X = "AGGTAB"
     Y = "GXTXAYB"
-    print(timeit(lambda: method1(X, Y), number=10000))  # 0.14817858800233807
+    print(timeit(lambda: method1(X, Y), number=10000))  
     print(
         timeit(lambda: method2(X, Y, len(X), len(Y)), number=10000)
-    )  # 0.5299446069984697
-    """
+    )  
+    

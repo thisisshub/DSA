@@ -85,7 +85,7 @@ class AVL_Tree(object):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     myTree = AVL_Tree()
@@ -98,5 +98,5 @@ if __name__ == "__main__":
     root = myTree.insert(root, 50)
     root = myTree.insert(root, 25)
 
-    print(timeit(lambda: myTree.preOrder(root), number=10000)) # 0.1360708509964752
-    """
+    print(timeit(lambda: myTree.preOrder(root), number=10000)) 
+    

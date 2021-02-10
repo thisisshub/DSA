@@ -57,7 +57,7 @@ class LinkedList:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     llist = LinkedList()
@@ -68,5 +68,5 @@ if __name__ == "__main__":
     llist.push(11)
     llist.push(11)
 
-    print(timeit(lambda: llist.removeDuplicates(), number=10000)) # 0.0036408070009201765
-    """
+    print(timeit(lambda: llist.removeDuplicates(), number=10000)) 
+    

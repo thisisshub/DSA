@@ -21,7 +21,7 @@ def ceil(root, inp):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     root = Node(8)
 
@@ -34,5 +34,5 @@ if __name__ == "__main__":
     root.right.left = Node(10)
     root.right.right = Node(14)
 
-    print(timeit(lambda: ceil(root, 9), number=10000))  # 0.005088308003905695
-    """
+    print(timeit(lambda: ceil(root, 9), number=10000))  
+    

@@ -57,7 +57,7 @@ class Graph:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     g = Graph(5)
@@ -67,5 +67,5 @@ if __name__ == "__main__":
     g.addEdge(0, 3)
     g.addEdge(3, 4)
 
-    print(timeit(lambda: g.printSCCs(), number=10000))  # 0.31253610699786805
-    """
+    print(timeit(lambda: g.printSCCs(), number=10000))  
+    

@@ -40,7 +40,7 @@ def findPair(root, summ):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = None
@@ -53,5 +53,5 @@ if __name__ == "__main__":
     root = insert(root, 25)
     root = insert(root, 10)
     summ = 33
-    print(timeit(lambda: findPair(root, summ), number=10000))  # 0.10178953700233251
-    """
+    print(timeit(lambda: findPair(root, summ), number=10000))  
+    

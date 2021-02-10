@@ -21,7 +21,7 @@ def method1(string: str) -> str:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     print(timeit(lambda: method1("thisisisastring"), number=10000))
-    """
+    

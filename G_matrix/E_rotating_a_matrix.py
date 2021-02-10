@@ -1,7 +1,7 @@
 def method1():
     N = 4
 
-    # mat = [[0 for x in range(N)] for y in range(N)]
+    
     mat = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
 
     def rotateMatrix(mat):
@@ -24,7 +24,7 @@ def method1():
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1(), number=10000)) # 0.2696803380001711
-    """
+    print(timeit(lambda: method1(), number=10000)) 
+    

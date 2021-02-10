@@ -33,7 +33,7 @@ def printVerticalOrder(root):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(1)
@@ -45,5 +45,5 @@ if __name__ == "__main__":
     root.right.right = Node(7)
     root.right.left.right = Node(8)
     root.right.right.right = Node(9)
-    print(timeit(lambda: printVerticalOrder(root), number=10000))  # 0.37157143000513315
-    """
+    print(timeit(lambda: printVerticalOrder(root), number=10000))  
+    

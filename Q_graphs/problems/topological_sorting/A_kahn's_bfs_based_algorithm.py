@@ -47,7 +47,7 @@ class Graph:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     g = Graph(6)
@@ -58,5 +58,5 @@ if __name__ == "__main__":
     g.addEdge(2, 3)
     g.addEdge(3, 1)
 
-    print(timeit(lambda: g.topologicalSort(), number=10000))  # 0.12342081200040411
-    """
+    print(timeit(lambda: g.topologicalSort(), number=10000))  
+    

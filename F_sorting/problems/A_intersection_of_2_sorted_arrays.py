@@ -21,12 +21,12 @@ def method2(ll1: list, ll2: list, m: int, n: int) -> int:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     ll1 = [1, 2, 4, 5, 6]
     ll2 = [2, 3, 5, 7]
     m = len(ll1)
     n = len(ll2)
-    print(timeit(lambda: method1(ll1, ll2), number=10000))  # 0.02140125900041312
-    print(timeit(lambda: method2(ll1, ll2, m, n), number=10000))  # 0.06446200500067789
-    """
+    print(timeit(lambda: method1(ll1, ll2), number=10000))  
+    print(timeit(lambda: method2(ll1, ll2, m, n), number=10000))  
+    

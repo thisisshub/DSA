@@ -72,7 +72,7 @@ class Heap:
     def extractMin(self):
         n = len(self.arr)
         if n == 0:
-            return "#"
+            return "
         if n == 1:
             temp = self.arr[0]
             self.arr.pop()
@@ -94,7 +94,7 @@ class Solution(object):
         res_next = None
         while True:
             temp = heap.extractMin()
-            if temp == "#":
+            if temp == "
                 return res
             if not res:
                 res = temp
@@ -113,7 +113,7 @@ class Solution(object):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     ob = Solution()
@@ -123,5 +123,5 @@ if __name__ == "__main__":
         l = make_list(ll)
         lls.append(l)
 
-    print(timeit(lambda: print_list(ob.mergeKLists(lls)), number=10000)) # 0.11806906099809567
-    """
+    print(timeit(lambda: print_list(ob.mergeKLists(lls)), number=10000)) 
+    

@@ -50,7 +50,7 @@ def mergeLists(head1, head2):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     list1 = LinkedList()
     list1.append(10)
@@ -69,5 +69,5 @@ if __name__ == "__main__":
     list3 = LinkedList()
 
     list3.head = mergeLists(list1.head, list2.head)
-    print(timeit(lambda: list3.printList(), number=10000))  # 0.18810172099983902
-    """
+    print(timeit(lambda: list3.printList(), number=10000))  
+    

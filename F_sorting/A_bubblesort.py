@@ -8,8 +8,8 @@ def method1(l: list) -> list:
 
 
 if __name__ == "__main__":
-    """
+    
     l = [1, 3, 4, 7, 5, 9]
     from timeit import timeit
-    timeit(lambda: method1(l), number=10000) # 0.02512622900030692
-    """
+    timeit(lambda: method1(l), number=10000) 
+    

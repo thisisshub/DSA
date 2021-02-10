@@ -15,11 +15,11 @@ class Solution(object):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     arr_nums = [12, 14, 9, 50, 61, 41]
     s = Solution()
     result = s.find_Kth_Largest(arr_nums, 3)
-    print(timeit(lambda: result, number=10000))  # 0.0005090839986223727
-    """
+    print(timeit(lambda: result, number=10000))  
+    

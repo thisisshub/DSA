@@ -33,9 +33,9 @@ def method1(str1: str, str2: str) -> int:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     txt = "thisisastringtocompare"
     pat = "thisisiastring"
-    print(timeit(lambda: method1(pat, txt), number=10000)) # 0.4546106020006846
-    """
+    print(timeit(lambda: method1(pat, txt), number=10000)) 
+    

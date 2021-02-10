@@ -55,4 +55,4 @@ if __name__ == "__main__":
 
     k = 3
 
-    print(timeit(lambda: printKthSmallest(root), number=10000))  # 0.21984126699680928
+    print(timeit(lambda: printKthSmallest(root), number=10000))  

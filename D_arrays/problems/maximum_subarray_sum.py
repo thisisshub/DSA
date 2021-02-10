@@ -14,9 +14,9 @@ def method1(ll, n):
 
 
 if __name__ == "__main__":
-    """
+    
     ll = [-13, -3, -25, -20, -3, -16, -23, -12, -5, -22, -15, -4, -7]
     n = len(ll)
     from timeit import timeit
-    print(timeit(lambda: method1(ll, n), number=10000)) # 0.024287710002681706
-    """
+    print(timeit(lambda: method1(ll, n), number=10000)) 
+    

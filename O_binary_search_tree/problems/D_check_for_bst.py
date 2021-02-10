@@ -27,7 +27,7 @@ def isBSTUtil(node, mini, maxi):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(4)
@@ -36,5 +36,5 @@ if __name__ == "__main__":
     root.left.left = Node(1)
     root.left.right = Node(3)
 
-    print(timeit(lambda: isBST(root), number=10000))  # 0.01445196800341364
-    """
+    print(timeit(lambda: isBST(root), number=10000))  
+    

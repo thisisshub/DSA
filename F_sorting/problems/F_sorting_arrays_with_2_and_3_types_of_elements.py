@@ -10,9 +10,9 @@ def method1(arr: list, n: int) -> list:
 
 
 if __name__ == "__main__":
-    """
+    
     arr = [1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1]
     n = len(arr)
     from timeit import timeit
-    print(timeit(lambda: method1(arr, n), number=10000)) # 0.01202381199982483
-    """
+    print(timeit(lambda: method1(arr, n), number=10000)) 
+    

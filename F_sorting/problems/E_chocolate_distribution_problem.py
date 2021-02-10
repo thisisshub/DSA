@@ -18,8 +18,8 @@ def method1(arr, n, m):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     arr = [12, 4, 7, 9, 2, 23, 25, 41, 30, 40, 28, 42, 30, 44, 48, 43, 50]
-    print(timeit(lambda: method1(arr, len(arr), 7), number=10000)) # 0.01904779899996356
-    """
+    print(timeit(lambda: method1(arr, len(arr), 7), number=10000)) 
+    

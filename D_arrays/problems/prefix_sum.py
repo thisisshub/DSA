@@ -11,7 +11,7 @@ prefixSum = [0 for i in range(n + 1)]
 method1(ll, n, prefixSum) 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1(ll, n, prefixSum), number=10000)) # 0.005700344998331275
-    """
+    print(timeit(lambda: method1(ll, n, prefixSum), number=10000)) 
+    

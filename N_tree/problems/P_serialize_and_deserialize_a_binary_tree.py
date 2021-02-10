@@ -11,7 +11,7 @@ s = ""
 
 def serialize(node, s=""):
     if not node:
-        s += "# "
+        s += "
         return s
     s += str(node.val) + " "
     s = serialize(node.left, s=s)
@@ -24,7 +24,7 @@ i = 0
 
 def deserialize(s):
     global i
-    if s[i] == "#":
+    if s[i] == "
         if i < len(s) - 2:
             i += 2
         return None
@@ -39,9 +39,9 @@ def deserialize(s):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
-    print(timeit(lambda: serialize(node), number=10000))  # 0.017630080999879283
-    print(timeit(lambda: deserialize(serialize(node)), number=10000))  # 0.020570166999732464
-    """
+    print(timeit(lambda: serialize(node), number=10000))  
+    print(timeit(lambda: deserialize(serialize(node)), number=10000))  
+    

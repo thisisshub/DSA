@@ -14,11 +14,11 @@ def method1(mat, n, x):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     mat = [ [10, 20, 30, 40],
             [15, 25, 35, 45],
             [27, 29, 37, 48],
             [32, 33, 39, 50] ]
-    print(timeit(lambda: method1(mat, 4, 29), number=10000)) # 0.3365673150001385
-    """
+    print(timeit(lambda: method1(mat, 4, 29), number=10000)) 
+    

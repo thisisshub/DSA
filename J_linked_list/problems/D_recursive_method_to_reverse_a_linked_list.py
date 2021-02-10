@@ -35,14 +35,14 @@ class LinkedList:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     linkedList = LinkedList()
     linkedList.push(1)
     linkedList.push(2)
     linkedList.push(3)
     linkedList.push(4)
-    print(timeit(lambda: linkedList, number=10000)) # 0.00046981800005596597
+    print(timeit(lambda: linkedList, number=10000)) 
     linkedList.head = linkedList.reverse(linkedList.head)
-    print(timeit(lambda: linkedList, number=10000)) # 0.0004048120008519618
-    """
+    print(timeit(lambda: linkedList, number=10000)) 
+    

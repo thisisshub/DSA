@@ -55,7 +55,7 @@ def PrintInorder(root):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(6)
@@ -66,5 +66,5 @@ if __name__ == "__main__":
     root.right.left = Node(7)
     root.right.right = Node(12)
 
-    print(timeit(lambda: correctBst(root), number=10000))  # 0.018424429996230174
-    """
+    print(timeit(lambda: correctBst(root), number=10000))  
+    

@@ -18,8 +18,8 @@ def facto(num):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
-    print(timeit(lambda: facto(5), number=10000))  # 0.0009072790053323843
-    """
+    print(timeit(lambda: facto(5), number=10000))  
+    

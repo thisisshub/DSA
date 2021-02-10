@@ -40,7 +40,7 @@ class DoublyLinkedList:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     dll = DoublyLinkedList()
@@ -51,5 +51,5 @@ if __name__ == "__main__":
 
     dll.printList(dll.head)
 
-    print(timeit(lambda: dll.reverse(), number=10000))  # 0.008048882000366575
-    """
+    print(timeit(lambda: dll.reverse(), number=10000))  
+    

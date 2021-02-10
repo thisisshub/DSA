@@ -23,8 +23,8 @@ root.left.left = Node(4)
 root.left.right = Node(5)
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
-    print(timeit(lambda: method1(root), number=10000))  # 0.3417354199991678
-    """
+    print(timeit(lambda: method1(root), number=10000))  
+    

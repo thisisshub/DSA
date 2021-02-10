@@ -22,9 +22,9 @@ def method1(ll1, ll2):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     ll1 = [1, 2, 2, 2, 3]
     ll2 = [2, 3, 4, 5]
-    print(timeit(lambda: method1(ll1, ll2), number=10000)) # 0.05352691199914261
-    """
+    print(timeit(lambda: method1(ll1, ll2), number=10000)) 
+    

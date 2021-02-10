@@ -33,7 +33,7 @@ def number(a, n, p, k):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     n = 5
@@ -41,5 +41,5 @@ if __name__ == "__main__":
     p = 11
     k = 2
 
-    print(timeit(lambda: number(arr, n, p, k), number=10000))  # 0.01322143599827541
-    """
+    print(timeit(lambda: number(arr, n, p, k), number=10000))  
+    

@@ -31,7 +31,7 @@ def isBalanced(root):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(1)
@@ -40,5 +40,5 @@ if __name__ == "__main__":
     root.left.left = Node(4)
     root.left.right = Node(5)
     root.left.left.left = Node(8)
-    print(timeit(lambda: isBalanced(root), number=10000))  # 0.01500733800639864
-    """
+    print(timeit(lambda: isBalanced(root), number=10000))  
+    

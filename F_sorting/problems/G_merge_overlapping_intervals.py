@@ -22,8 +22,8 @@ def method1(arr: list) -> list:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     arr = [[6, 8], [1, 9], [2, 4], [4, 7]]
-    print(timeit(lambda: method1(arr), number=10000)) # 0.09757556899967312
-    """
+    print(timeit(lambda: method1(arr), number=10000)) 
+    

@@ -46,7 +46,7 @@ class Graph:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import  timeit
 
     g1 = Graph(5)
@@ -58,5 +58,5 @@ if __name__ == "__main__":
 
 
     print("Bridges in first graph ")
-    print(timeit(lambda: g1.bridge(), number=10000)) # 0.11896605800211546
-    """
+    print(timeit(lambda: g1.bridge(), number=10000)) 
+    

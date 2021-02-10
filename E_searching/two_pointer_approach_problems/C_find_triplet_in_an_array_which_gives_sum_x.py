@@ -15,10 +15,10 @@ def method1(ll: list, n: int, sum: int) -> list:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     ll = [1, 4, 45, 6, 10, 8]
     sum = 22
     n = len(ll)
-    print(timeit(lambda: method1(ll, n, sum), number=10000)) # 0.13895291699918744
-    """
+    print(timeit(lambda: method1(ll, n, sum), number=10000)) 
+    

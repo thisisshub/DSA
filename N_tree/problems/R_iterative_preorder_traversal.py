@@ -25,7 +25,7 @@ def iterativePreorder(root):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = Node(10)
@@ -34,5 +34,5 @@ if __name__ == "__main__":
     root.left.left = Node(3)
     root.left.right = Node(5)
     root.right.left = Node(2)
-    print(timeit(lambda: iterativePreorder(root), number=10000)) # 0.2520280839999032
-    """
+    print(timeit(lambda: iterativePreorder(root), number=10000)) 
+    

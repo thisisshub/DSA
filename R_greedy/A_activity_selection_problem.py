@@ -13,10 +13,10 @@ def method1(s, f):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     s = [1, 3, 0, 5, 8, 5]
     f = [2, 4, 6, 7, 9, 9]
-    print(timeit(lambda: method1(s, f), number=10000))  # 0.2884501590015134
-    """
+    print(timeit(lambda: method1(s, f), number=10000))  
+    

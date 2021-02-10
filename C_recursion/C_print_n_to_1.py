@@ -17,10 +17,10 @@ def method4(n: int) -> int:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1(10), number=10000)) # 0.005636529000184964
-    print(timeit(lambda: method2(10), number=10000)) # 0.0071275150003202725
-    print(timeit(lambda: method3(10), number=10000)) # 0.062233691998699214
-    print(timeit(lambda: method4(10), number=10000)) # 0.26295897900126874
-    """
+    print(timeit(lambda: method1(10), number=10000)) 
+    print(timeit(lambda: method2(10), number=10000)) 
+    print(timeit(lambda: method3(10), number=10000)) 
+    print(timeit(lambda: method4(10), number=10000)) 
+    

@@ -100,7 +100,7 @@ def constructST(arr, n):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     arr = [1, 3, 5, 7, 9, 11]
@@ -108,5 +108,5 @@ if __name__ == "__main__":
 
     constructST(arr, n)
 
-    print(timeit(lambda: updateRange(n, 1, 5, 10), number=10000))  # 0.02161240299756173
-    """
+    print(timeit(lambda: updateRange(n, 1, 5, 10), number=10000))  
+    

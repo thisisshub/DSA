@@ -41,9 +41,9 @@ def method1(pat: str, txt: str) -> int:
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
     txt = "ABABDABACDABABCABAB"
     pat = "ABABCABAB"
-    print(timeit(lambda: method1(pat, txt), number=10000)) # 0.001750715999150998
-    """
+    print(timeit(lambda: method1(pat, txt), number=10000)) 
+    

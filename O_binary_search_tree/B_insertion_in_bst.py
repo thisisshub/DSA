@@ -31,7 +31,7 @@ def insert(root, key):
 
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
 
     root = None
@@ -39,5 +39,5 @@ if __name__ == "__main__":
 
     for key in keys:
         root = insert(root, key)
-    print(timeit(lambda: root, number=10000))  # 0.00042487999962759204
-    """
+    print(timeit(lambda: root, number=10000))  
+    

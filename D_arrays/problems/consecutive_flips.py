@@ -24,7 +24,7 @@ n = len(s)
 k = 2
 
 if __name__ == "__main__":
-    """
+    
     from timeit import timeit
-    print(timeit(lambda: method1(s, n, k), number=10000)) # 0.011129570000775857
-    """
+    print(timeit(lambda: method1(s, n, k), number=10000)) 
+    
