@@ -5,7 +5,7 @@ install:
   - pip install pytest codecov coverage
 
 script:
-  - python3 -m pytest --color=yes --verbose tests/
+  - python3 -m pytest --color=yes --verbose Z_tests/
 
 notifications:
   email:
