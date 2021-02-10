@@ -32,6 +32,9 @@
 - [R: Greedy](https://github.com/thisisshub/DSA/blob/main/R_greedy/Z_greedy.md)
 - [S: Backtracking](https://github.com/thisisshub/DSA/blob/main/S_backtracking/Z_backtracking.md)
 - [T: Dynamic Programming](https://github.com/thisisshub/DSA/blob/main/T_dynamic_programming/Z_dynamic_programming.md)
+- [U: Trie](https://github.com/thisisshub/DSA/blob/main/U_trie/Z_trie.md)
+- [V: Segment Tree](https://github.com/thisisshub/DSA/blob/main/V_segment_tree/Z_segment_tree.md)
+- [W: Disjoint Set](https://github.com/thisisshub/DSA/blob/main/W_disjoint_set/Z_disjoint_set.md)
 
 ## Ugh, not another DSA repository but anyway. What the fork is this?
 This repository is the implementation of the contents DSA self paced series by yours truly but in Python
