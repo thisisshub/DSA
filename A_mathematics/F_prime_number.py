@@ -1,9 +1,5 @@
 def method1(n: int) -> bool:
-    if n > 1:
-        for i in range(2, n + 1):
-            return False if n % i == 0 and i != n and i != 1 else True
-    else:
-        return False
+    return n > 1 and all(n % i for i in range(2, int(n ** 0.5) + 1))
 
 
 def method2(n: int) -> bool:
@@ -18,6 +14,6 @@ def method2(n: int) -> bool:
 if __name__ == "__main__":
     """
     from timeit import timeit
-    print(timeit(lambda: method1(10), number=10000)) # 0.003867163999530021
+    print(timeit(lambda: method1(10), number=10000)) # 0.006183429999509826
     print(timeit(lambda: method2(10), number=10000)) # 0.015483204999327427
     """
