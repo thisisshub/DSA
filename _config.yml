@@ -7,3 +7,5 @@ include:
   - README.md
   - LICENSE.md
   - CONTRIBUTING.md
+
+theme: jekyll-theme-cayman
