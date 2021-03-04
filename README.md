@@ -16,7 +16,7 @@
 - [B: Bit Magic](https://github.com/thisisshub/DSA/blob/main/B_bit_magic/Z_bit_magic.md)
 - [C: Recursion](https://github.com/thisisshub/DSA/blob/main/C_recursion/Z_recursion.md)
 - [D: Arrays](https://github.com/thisisshub/DSA/blob/main/D_arrays/Z_arrays.md)
-- [E: Searching](https://github.com/thisisshub/DSA/blob/main/E_searching/Z_searching.m)
+- [E: Searching](https://github.com/thisisshub/DSA/blob/main/E_searching/Z_searching.md)
 - [F: Sorting](https://github.com/thisisshub/DSA/blob/main/F_sorting/Z_sorting.md)
 - [G: Matrix](https://github.com/thisisshub/DSA/blob/main/G_matrix/Z_matrix.md)
 - [H: Hashing](https://github.com/thisisshub/DSA/blob/main/H_hashing/problems/Z_hashing.md])
