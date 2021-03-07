@@ -19,7 +19,7 @@
 - [E: Searching](https://github.com/thisisshub/DSA/blob/main/E_searching/Z_searching.md)
 - [F: Sorting](https://github.com/thisisshub/DSA/blob/main/F_sorting/Z_sorting.md)
 - [G: Matrix](https://github.com/thisisshub/DSA/blob/main/G_matrix/Z_matrix.md)
-- [H: Hashing](https://github.com/thisisshub/DSA/blob/main/H_hashing/problems/Z_hashing.md])
+- [H: Hashing](https://github.com/thisisshub/DSA/blob/main/H_hashing/problems/Z_hashing.md)
 - [I: String](https://github.com/thisisshub/DSA/blob/main/I_string/Z_string.md)
 - [J: Linked List](https://github.com/thisisshub/DSA/blob/main/J_linked_list/Z_linked_list.md)
 - [K: Stack](https://github.com/thisisshub/DSA/blob/main/K_stack/Z_stack.md)
