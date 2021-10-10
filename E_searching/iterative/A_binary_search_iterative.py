@@ -3,7 +3,7 @@ def method1_iterative(n: int, l: list) -> int:
     high = len(l) - 1
     mid = 0
     while low <= high:
-        mid = (low + high) // 2
+        mid = low+(high-low)//2  #Higher values of low and high would add up to give an error so a bit of mathematicl manipulation
         if l[mid] < n:
             low = mid + 1
         elif l[mid] > n:
