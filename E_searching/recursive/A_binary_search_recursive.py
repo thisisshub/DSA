@@ -1,6 +1,6 @@
 def method1_recursive(l: list, low: int, high: int, x: int) -> int:
     if high >= low:
-        mid = (high + low) // 2
+        mid = low + (high-low)// 2 #to avoid overflow error for large values
         if l[mid] == x:
             return mid
         elif l[mid] > x:
