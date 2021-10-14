@@ -1,4 +1,12 @@
+# Python program to print all primes smaller than or equal to
+# n using Sieve of Eratosthenes
+
 def method1(n: int) -> int:
+    '''
+    Create a boolean array "sieve[0..n]" and initialize
+    all entries it as true. A value in sieve[i] will
+    finally be false if i is Not a prime, else true.
+    '''
     if n <= 2:
         return []
     else:
