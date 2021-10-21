@@ -1,12 +1,12 @@
 def method1(l: list, low: int, high: int, x: int) -> int:
-    if high >= low:
-        mid = (high + low) // 2
-        if l[mid] == x:
-            return mid
-        elif l[mid] > x:
-            return method1(l, low, mid - 1, x)
+    if high >= low:  #check the is high no is greater than low
+        mid = (high + low) // 2   #find mid by taking avg of high & low
+        if l[mid] == x:     #check the mid no is equal to finding no
+            return mid      # if equal return mid no
+        elif l[mid] > x:    # if mid is greater than X
+            return method1(l, low, mid - 1, x)      # set high = mid-1
         else:
-            return method1(l, mid + 1, high, x)
+            return method1(l, mid + 1, high, x)     # set low = mid+1
     else:
         return -1
     return method1(l, 0, len(l) - 1, x)
