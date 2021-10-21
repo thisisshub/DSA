@@ -1,4 +1,6 @@
 def method1(n: str) -> bool:
+    '''Checks for palindrome by reversing the string'''
+
     return True if n == n[::-1] else False
 
 
