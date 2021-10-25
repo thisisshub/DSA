@@ -6,6 +6,7 @@
 
 ## Recursive
 - [Binary Search Recursive](https://github.com/thisisshub/DSA/blob/main/E_searching/recursive/A_binary_search_recursive.py)
+- [Ternary Search Recursive](https://github.com/thisisshub/DSA/blob/main/E_searching/recursive/B_ternary_search_recursive.py)
 
 ## Problems
 - [Index Of First Occurence In Sorted Array](https://github.com/thisisshub/DSA/blob/main/E_searching/problems/A_index_of_first_occurence_in_sorted_array.py)
